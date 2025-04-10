@@ -12,7 +12,7 @@ const newsItems = [
     date: "2025-03-28",
     readTime: "4 min read",
     category: "Agriculture",
-    image: "/placeholder.svg"
+    image: "/pm kisan yojna.jpeg"
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const newsItems = [
     date: "2025-03-25",
     readTime: "3 min read",
     category: "Education",
-    image: "/placeholder.svg"
+    image: "/scholarship.png"
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const newsItems = [
     date: "2025-03-21",
     readTime: "5 min read",
     category: "Healthcare",
-    image: "/placeholder.svg"
+    image: "/ayushman.webp"
   }
 ];
 
