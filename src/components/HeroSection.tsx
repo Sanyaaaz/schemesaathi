@@ -29,7 +29,7 @@ export default function HeroSection() {
               <Button className="bg-gov-gold hover:bg-gov-gold-dark text-gov-blue-dark font-semibold px-6 py-6 text-lg rounded-md transition-colors flex items-center">
                 Find Eligible Schemes <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button variant="outline" className="border-2 border-white text-white hover:bg-white/10 px-6 py-[calc(1.5rem-2px)] text-lg rounded-md font-medium transition-colors">
+              <Button variant="outline" className="border-2 border-white text-black hover:bg-white/10 px-6 py-[calc(1.5rem-2px)] text-lg rounded-md font-medium transition-colors">
                 Browse All Schemes
               </Button>
             </div>
@@ -53,20 +53,20 @@ export default function HeroSection() {
                     <p className="text-sm font-medium text-gray-600">Profile</p>
                     <div className="grid grid-cols-2 gap-2 mt-2 text-sm">
                       <div>
-                        <span className="text-gray-500">Gender:</span>
-                        <span className="ml-2 font-medium">Male</span>
+                        <span className="text-gray-800">Gender:</span>
+                        <span className="ml-2 font-medium text-gray-500">Male</span>
                       </div>
                       <div>
-                        <span className="text-gray-500">Age:</span>
-                        <span className="ml-2 font-medium">24 yrs</span>
+                        <span className="text-gray-800">Age:</span>
+                        <span className="ml-2 font-medium text-gray-500">24 yrs</span>
                       </div>
                       <div>
-                        <span className="text-gray-500">State:</span>
-                        <span className="ml-2 font-medium">Karnataka</span>
+                        <span className="text-gray-800">State:</span>
+                        <span className="ml-2 font-medium text-gray-500">Karnataka</span>
                       </div>
                       <div>
-                        <span className="text-gray-500">Occupation:</span>
-                        <span className="ml-2 font-medium">Student</span>
+                        <span className="text-gray-800">Occupation:</span>
+                        <span className="ml-2 font-medium text-gray-500">Student</span>
                       </div>
                     </div>
                   </div>
@@ -74,17 +74,17 @@ export default function HeroSection() {
                   <div>
                     <h4 className="font-medium">Eligible Schemes:</h4>
                     <ul className="mt-2 space-y-2">
-                      <li className="bg-green-50 p-2 rounded text-sm flex items-center">
-                        <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
-                        PM Vidya Lakshmi Scheme
+                      <li className="bg-green-50 p-2 rounded text-sm flex items-center ">
+                        <div className="w-2 h-2 bg-green-500 rounded-full mr-2 "></div>
+                        <div className="text-black">PM Vidya Lakshmi Scheme</div>
                       </li>
                       <li className="bg-green-50 p-2 rounded text-sm flex items-center">
                         <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
-                        National Scholarship Portal
+                        <div className="text-black">National Scholarship Portal</div>
                       </li>
                       <li className="bg-green-50 p-2 rounded text-sm flex items-center">
                         <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
-                        Skill India Mission
+                        <div className="text-black">Skill India Mission</div>
                       </li>
                     </ul>
                   </div>

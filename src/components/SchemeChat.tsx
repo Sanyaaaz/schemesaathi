@@ -36,7 +36,7 @@ const mockOpenAIResponse = async (messages: Message[], userProfile: UserProfile)
   
   await new Promise(resolve => setTimeout(resolve, 1500)); // Simulate network delay
   
-  let schemes: SchemeResult[] = [];
+  const schemes: SchemeResult[] = [];
   
   // Basic logic for scheme recommendations based on user profile
   if (userProfile.state === 'Gujarat') {

@@ -51,7 +51,7 @@ export default function Header() {
             <button className="p-2 text-gray-600 hover:text-gov-blue">
               <Search className="h-5 w-5" />
             </button>
-            <Button variant="outline" className="ml-4 hidden md:block official-btn">
+            <Button variant="outline" className="ml-4 hidden md:block official-btn text-black">
               Eligibility Checker
             </Button>
             

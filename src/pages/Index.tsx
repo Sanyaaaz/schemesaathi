@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -7,7 +6,7 @@ import HowItWorks from '@/components/HowItWorks';
 import PopularSchemes from '@/components/PopularSchemes';
 import LatestNews from '@/components/LatestNews';
 import StatsBanner from '@/components/StatsBanner';
-import SchemeChat from '@/components/SchemeChat';
+import WatsonChat from '@/components/WatsonChat';
 
 const Index = () => {
   useEffect(() => {
@@ -24,7 +23,7 @@ const Index = () => {
         <StatsBanner />
         <PopularSchemes />
         <LatestNews />
-        <SchemeChat />
+        <WatsonChat />
       </main>
       <Footer />
     </div>
