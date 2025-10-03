@@ -1,3 +1,5 @@
 flask
 flask-cors
 pandas
+nltk
+openpyxl   # needed for reading Excel
